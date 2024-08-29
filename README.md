@@ -61,7 +61,7 @@ Distance Fields(距離場):
    
    經過整理二次多項式的係數 𝑎_𝑥, 𝑎_𝑦, 𝑎_𝑧:
    
-      ![image](https://github.com/user-attachments/assets/c4f31c77-7792-4f13-96ec-9b41e029d1f8)
+   ![image](https://github.com/user-attachments/assets/c4f31c77-7792-4f13-96ec-9b41e029d1f8)
    
   (4) 用公式解求根，取較大的根為距離值
   
@@ -81,12 +81,12 @@ Distance Fields(距離場):
    
   (1) 點模型
   
-      ![iso-curve_point](https://github.com/user-attachments/assets/f6ea3dfb-c105-4259-a656-34688e7f8544)
+   ![iso-curve_point](https://github.com/user-attachments/assets/f6ea3dfb-c105-4259-a656-34688e7f8544)
    
   (2) 直線模型
   
-     ![iso-curve_line](https://github.com/user-attachments/assets/cfb05c86-3605-48ea-b88c-60bbcb831f3b)
+   ![iso-curve_line](https://github.com/user-attachments/assets/cfb05c86-3605-48ea-b88c-60bbcb831f3b)
   
   (3) V字形模型
   
-     ![iso-curve_v](https://github.com/user-attachments/assets/e433c9cb-2ff3-43a7-8f8b-3196ce151378)
+   ![iso-curve_v](https://github.com/user-attachments/assets/e433c9cb-2ff3-43a7-8f8b-3196ce151378)
