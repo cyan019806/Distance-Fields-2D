@@ -282,17 +282,12 @@ int main()
 					// }
 					flag = true;
 				}
-				// else
-				// {
-					for (int i = 0; i < 64; i++)
-					{
-						// int i = 2;
-						isoSurface.Polygonise(i);
-						// 	std::cout << i << " ";
-						Curve.renewVBO(background.curve);
-						Model_Curve_Create(Curve.VAO, background.curve.size());
-					}
-				// }
+				for (int i = 0; i < 64; i++)
+				{
+					isoSurface.Polygonise(i);
+					Curve.renewVBO(background.curve);
+					Model_Curve_Create(Curve.VAO, background.curve.size());
+				}
 			}
 		}
 		ImGui::Render();

@@ -174,36 +174,6 @@ void PlanesRenewBackground(int zmin, int zmax, int xmin, int xmax)
     }
 }
 
-void ShowDistance(int assign_dist)
-{
-    background.voxel.clear();
-    Node *DoneHead = voxelmodel.DoneList;
-    while (DoneHead != NULL)
-    {
-        int z = DoneHead->pos.z;
-        int x = DoneHead->pos.x;
-        int dist = DoneHead->distance;
-        if (dist < assign_dist)
-        {
-            glm::fvec3 color;
-            for (int i = 0; i < 64; i++)
-            {
-                if (dist % 64 == i)
-                    color = isoSurface.ColorMap[i];
-            }
-
-            background.voxel.push_back(Vertex{{0.0f + x, 0.0f, 0.0f + z}, {0.0f, 1.0f, 0.0f}, {0.0f, 0.0f}, {color.r, color.g, color.b}});
-            background.voxel.push_back(Vertex{{1.0f + x, 0.0f, 0.0f + z}, {0.0f, 1.0f, 0.0f}, {0.0f, 0.0f}, {color.r, color.g, color.b}});
-            background.voxel.push_back(Vertex{{1.0f + x, 0.0f, 1.0f + z}, {0.0f, 1.0f, 0.0f}, {0.0f, 0.0f}, {color.r, color.g, color.b}});
-
-            background.voxel.push_back(Vertex{{1.0f + x, 0.0f, 1.0f + z}, {0.0f, 1.0f, 0.0f}, {0.0f, 0.0f}, {color.r, color.g, color.b}});
-            background.voxel.push_back(Vertex{{0.0f + x, 0.0f, 1.0f + z}, {0.0f, 1.0f, 0.0f}, {0.0f, 0.0f}, {color.r, color.g, color.b}});
-            background.voxel.push_back(Vertex{{0.0f + x, 0.0f, 0.0f + z}, {0.0f, 1.0f, 0.0f}, {0.0f, 0.0f}, {color.r, color.g, color.b}});
-        }
-        DoneHead = DoneHead->next;
-    }
-}
-
 void destroyBackground()
 {
     background.voxel.clear();
