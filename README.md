@@ -57,7 +57,7 @@ Distance Fields(距離場):
   
   (3) 將求得的係數代入微分方程:
   
-      ![image](https://github.com/user-attachments/assets/204ed66e-8ab4-486a-9d4e-48525a5d7551)
+   ![image](https://github.com/user-attachments/assets/204ed66e-8ab4-486a-9d4e-48525a5d7551)
    
    經過整理二次多項式的係數 𝑎_𝑥, 𝑎_𝑦, 𝑎_𝑧:
    
@@ -71,9 +71,9 @@ Distance Fields(距離場):
    
    (2) target 體素的鄰居在 CLOSE 或 FAR 中距離值可能會被更新:
    
-       如果在 FAR 集合: 從 FAR 集合中移除，加入 CLOSE 集合
+   如果在 FAR 集合: 從 FAR 集合中移除，加入 CLOSE 集合
    
-       如果在 CLOSE 集合: 調整在 CLOSE 集合中的位置
+   如果在 CLOSE 集合: 調整在 CLOSE 集合中的位置
    
    (3) 重複上述步驟直到 CLOSE 集合變為空集合
    
