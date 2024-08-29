@@ -1,0 +1,6 @@
+C:/2023 code/Distance_Fields_2D/build/Debug/CMakeFiles/Distance_Fields_2D.dir
+C:/2023 code/Distance_Fields_2D/build/Debug/CMakeFiles/edit_cache.dir
+C:/2023 code/Distance_Fields_2D/build/Debug/CMakeFiles/rebuild_cache.dir
+C:/2023 code/Distance_Fields_2D/build/Debug/ext/glad/CMakeFiles/glad.dir
+C:/2023 code/Distance_Fields_2D/build/Debug/ext/glad/CMakeFiles/edit_cache.dir
+C:/2023 code/Distance_Fields_2D/build/Debug/ext/glad/CMakeFiles/rebuild_cache.dir

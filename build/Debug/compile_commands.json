@@ -1,0 +1,44 @@
+[
+{
+  "directory": "C:/2023 code/Distance_Fields_2D/build/Debug",
+  "command": "C:\\TDM-GCC-64\\bin\\g++.exe -DGLFW_DLL -I\"C:/2023 code/Distance_Fields_2D/include\" -I\"C:/2023 code/Distance_Fields_2D/ext/glad/include\" -isystem C:/dev/vcpkg/installed/x64-mingw-dynamic/include -isystem C:/dev/vcpkg/installed/x64-mingw-dynamic/include/SDL2 -g -std=gnu++17 -o CMakeFiles\\Distance_Fields_2D.dir\\src\\main.cpp.obj -c \"C:\\2023 code\\Distance_Fields_2D\\src\\main.cpp\"",
+  "file": "C:\\2023 code\\Distance_Fields_2D\\src\\main.cpp",
+  "output": "CMakeFiles\\Distance_Fields_2D.dir\\src\\main.cpp.obj"
+},
+{
+  "directory": "C:/2023 code/Distance_Fields_2D/build/Debug",
+  "command": "C:\\TDM-GCC-64\\bin\\g++.exe -DGLFW_DLL -I\"C:/2023 code/Distance_Fields_2D/include\" -I\"C:/2023 code/Distance_Fields_2D/ext/glad/include\" -isystem C:/dev/vcpkg/installed/x64-mingw-dynamic/include -isystem C:/dev/vcpkg/installed/x64-mingw-dynamic/include/SDL2 -g -std=gnu++17 -o CMakeFiles\\Distance_Fields_2D.dir\\src\\model.cpp.obj -c \"C:\\2023 code\\Distance_Fields_2D\\src\\model.cpp\"",
+  "file": "C:\\2023 code\\Distance_Fields_2D\\src\\model.cpp",
+  "output": "CMakeFiles\\Distance_Fields_2D.dir\\src\\model.cpp.obj"
+},
+{
+  "directory": "C:/2023 code/Distance_Fields_2D/build/Debug",
+  "command": "C:\\TDM-GCC-64\\bin\\g++.exe -DGLFW_DLL -I\"C:/2023 code/Distance_Fields_2D/include\" -I\"C:/2023 code/Distance_Fields_2D/ext/glad/include\" -isystem C:/dev/vcpkg/installed/x64-mingw-dynamic/include -isystem C:/dev/vcpkg/installed/x64-mingw-dynamic/include/SDL2 -g -std=gnu++17 -o CMakeFiles\\Distance_Fields_2D.dir\\src\\Iso-curve.cpp.obj -c \"C:\\2023 code\\Distance_Fields_2D\\src\\Iso-curve.cpp\"",
+  "file": "C:\\2023 code\\Distance_Fields_2D\\src\\Iso-curve.cpp",
+  "output": "CMakeFiles\\Distance_Fields_2D.dir\\src\\Iso-curve.cpp.obj"
+},
+{
+  "directory": "C:/2023 code/Distance_Fields_2D/build/Debug",
+  "command": "C:\\TDM-GCC-64\\bin\\g++.exe -DGLFW_DLL -I\"C:/2023 code/Distance_Fields_2D/include\" -I\"C:/2023 code/Distance_Fields_2D/ext/glad/include\" -isystem C:/dev/vcpkg/installed/x64-mingw-dynamic/include -isystem C:/dev/vcpkg/installed/x64-mingw-dynamic/include/SDL2 -g -std=gnu++17 -o CMakeFiles\\Distance_Fields_2D.dir\\src\\MatrixStack.cpp.obj -c \"C:\\2023 code\\Distance_Fields_2D\\src\\MatrixStack.cpp\"",
+  "file": "C:\\2023 code\\Distance_Fields_2D\\src\\MatrixStack.cpp",
+  "output": "CMakeFiles\\Distance_Fields_2D.dir\\src\\MatrixStack.cpp.obj"
+},
+{
+  "directory": "C:/2023 code/Distance_Fields_2D/build/Debug",
+  "command": "C:\\TDM-GCC-64\\bin\\g++.exe -DGLFW_DLL -I\"C:/2023 code/Distance_Fields_2D/include\" -I\"C:/2023 code/Distance_Fields_2D/ext/glad/include\" -isystem C:/dev/vcpkg/installed/x64-mingw-dynamic/include -isystem C:/dev/vcpkg/installed/x64-mingw-dynamic/include/SDL2 -g -std=gnu++17 -o CMakeFiles\\Distance_Fields_2D.dir\\src\\DrawModel.cpp.obj -c \"C:\\2023 code\\Distance_Fields_2D\\src\\DrawModel.cpp\"",
+  "file": "C:\\2023 code\\Distance_Fields_2D\\src\\DrawModel.cpp",
+  "output": "CMakeFiles\\Distance_Fields_2D.dir\\src\\DrawModel.cpp.obj"
+},
+{
+  "directory": "C:/2023 code/Distance_Fields_2D/build/Debug",
+  "command": "C:\\TDM-GCC-64\\bin\\g++.exe -DGLFW_DLL -I\"C:/2023 code/Distance_Fields_2D/include\" -I\"C:/2023 code/Distance_Fields_2D/ext/glad/include\" -isystem C:/dev/vcpkg/installed/x64-mingw-dynamic/include -isystem C:/dev/vcpkg/installed/x64-mingw-dynamic/include/SDL2 -g -std=gnu++17 -o CMakeFiles\\Distance_Fields_2D.dir\\src\\background.cpp.obj -c \"C:\\2023 code\\Distance_Fields_2D\\src\\background.cpp\"",
+  "file": "C:\\2023 code\\Distance_Fields_2D\\src\\background.cpp",
+  "output": "CMakeFiles\\Distance_Fields_2D.dir\\src\\background.cpp.obj"
+},
+{
+  "directory": "C:/2023 code/Distance_Fields_2D/build/Debug",
+  "command": "C:\\TDM-GCC-64\\bin\\gcc.exe -I\"C:/2023 code/Distance_Fields_2D/ext/glad/include\" -g -o ext\\glad\\CMakeFiles\\glad.dir\\src\\glad.c.obj -c \"C:\\2023 code\\Distance_Fields_2D\\ext\\glad\\src\\glad.c\"",
+  "file": "C:\\2023 code\\Distance_Fields_2D\\ext\\glad\\src\\glad.c",
+  "output": "ext\\glad\\CMakeFiles\\glad.dir\\src\\glad.c.obj"
+}
+]
