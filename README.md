@@ -9,12 +9,15 @@ Distance Fields(距離場):
    (1) 點
    
    ![image](https://github.com/user-attachments/assets/c26aa8f1-c8d4-4733-9b42-613b81cca2d9)
+   
    (2) 直線
    
    ![image](https://github.com/user-attachments/assets/957cc538-3ed5-48b4-a1a5-8904ad64f550)
+   
    (3) V字形
    
    ![image](https://github.com/user-attachments/assets/fc93408f-f44a-4060-9ec6-9ebede3707fa)
+   
 4. 將空間的體素分為三類:
    (1) DONE: 距離場已決定，距離值不會再改變
    (2) CLOSE: 緊鄰 DONE 的體素，距離值可能還會隨著計算變小
@@ -23,19 +26,23 @@ Distance Fields(距離場):
    (1) 偏微分方程:
    
    ![image](https://github.com/user-attachments/assets/4e2c60ab-a9a7-4119-9a57-62ad721c18ef)
+   
    f: 距離場傳播速度，設為1
    1/f: 時間
    
    ![image](https://github.com/user-attachments/assets/67ff91e7-2baf-468b-a565-07d9028cbcaa) : 距離場增長最快的方向
+   
    (2) 不確定係數法(Undetermined Coefficient Method): 用來近似偏微分方程為二次多項式
    假設體素V_(𝑖, 𝑗, 𝑘)的距離場為𝑢_(𝑖, 𝑗, 𝑘)，位置 xyz 的偏微分可以寫成:
    
    ![image](https://github.com/user-attachments/assets/b5d9f029-6153-4828-ab5c-d76ca28d8a88)
+   
    其中 𝐴𝑥  𝐵𝑥  𝐶𝑥, 𝐴𝑦  𝐵𝑦  𝐶𝑦, 𝐴𝑧  𝐵𝑧  𝐶𝑧 為要求的係數
    根據體素種類會產生五種情形(以 x 方向為例):
    
   ![image](https://github.com/user-attachments/assets/ec8d1af8-482e-4a5c-ac17-d5df2fb0d829)
   ![image](https://github.com/user-attachments/assets/7c90ee0f-ae04-4e0d-8b49-03f9a5349160)
+  
   
    前微法
   (3) 將求得的係數代入微分方程:
@@ -55,9 +62,11 @@ Distance Fields(距離場):
   (1) 點模型
   
    ![iso-curve_point](https://github.com/user-attachments/assets/f6ea3dfb-c105-4259-a656-34688e7f8544)
+   
   (2) 直線模型
   
   ![iso-curve_line](https://github.com/user-attachments/assets/cfb05c86-3605-48ea-b88c-60bbcb831f3b)
+  
   (3) V字形模型
   
   ![iso-curve_v](https://github.com/user-attachments/assets/e433c9cb-2ff3-43a7-8f8b-3196ce151378)
